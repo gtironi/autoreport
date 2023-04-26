@@ -1,4 +1,7 @@
+import os
+
 class relatorio:
+    template_dir = "dados" #os.pat.join("..", "/dados")
     def __init__(self, autor, titulo, template='cabeçalho.tex') -> None:
         self.template = template
         self.autor = autor
