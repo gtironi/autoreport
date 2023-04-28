@@ -10,3 +10,6 @@ class relatorio:
         self.autor = autor
         self.titulo = titulo
         self.cabecalho = None
+
+    def render(self):
+        return self.template.render
